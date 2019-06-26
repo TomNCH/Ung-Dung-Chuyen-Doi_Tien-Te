@@ -55,15 +55,15 @@
                 if(document.getElementById("FromCur").value == "VND"){
                     switch (document.getElementById("ToCur").value) {
                         case "VND" :
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " VND";
                             break;
                         case "USD" :
                             CurNum = CurNum / 23000;
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " USD";
                             break;
                         case "JPY" :
                             CurNum = CurNum / 213;
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " JPY";
                             break;
                     }
                 }
@@ -71,14 +71,14 @@
                     switch (document.getElementById("ToCur").value) {
                         case "VND" :
                             CurNum = CurNum * 23000;
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " VND";
                             break;
                         case "USD" :
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " USD";
                             break;
                         case "JPY" :
                             CurNum = CurNum * 108;
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " JPY";
                             break;
                     }
                 }
@@ -86,14 +86,14 @@
                     switch (document.getElementById("ToCur").value) {
                         case "VND" :
                             CurNum = CurNum * 213;
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " VND";
                             break;
                         case "USD" :
                             CurNum = CurNum / 108;
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " USD";
                             break;
                         case "JPY" :
-                            document.getElementById("Result").innerHTML = "Result : " + CurNum;
+                            document.getElementById("Result").innerHTML = "Result : " + CurNum + " JPY";
                             break;
                     }
                 }
